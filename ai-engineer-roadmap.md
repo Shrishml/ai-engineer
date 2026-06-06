@@ -156,6 +156,7 @@ jobs:
 ### Postgres
 - Run locally: `docker run -e POSTGRES_PASSWORD=... -p 5432:5432 postgres:16`
 - `psql` or `SQLAlchemy` + `asyncpg` in FastAPI
+- Learn about ORM using SQLAlchemy, db migration management like Alembic and all 
 - **CRUD**: `SELECT/INSERT/UPDATE/DELETE`
 
 ### Indexing
